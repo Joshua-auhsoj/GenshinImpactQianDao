@@ -51,7 +51,7 @@ data = json.loads(response.text)
 
 # 输出可读内容
 #print("Data:", data["data"])
-print("Message:", data["message"])
+print("签到信息:", data["message"])
 #print("Retcode:", data["retcode"])
 
 
